@@ -5,6 +5,7 @@ body {
     background-color: #000;
     color: #fff;
     font-family: Sarabun, sans-serif;
+    width: 100%;
 }
 
 .landing-info {
@@ -14,6 +15,6 @@ body {
 
 .dev-pic img {
     max-width: 20rem;
-    max-height: 35rem;
+    max-height: 25rem;
 
 }
