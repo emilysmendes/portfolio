@@ -1,3 +1,19 @@
 :root {
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Sarabun, sans-serif;
+}
+
+.landing-info {
+    height: 80vh;
+    display: flex;
+}
+
+.dev-pic img {
+    max-width: 20rem;
+    max-height: 35rem;
 
 }
