@@ -2,9 +2,30 @@
 }
 
 body {
-    background-color: #ffffff;
-    color: #9b7f69;
+    background-color: #262222;
+    color: #ffffff;
     font-family: Sarabun, sans-serif;
     width: 100%;
 }
 
+.background-image {
+    max-height: 75vh;
+    /*justify-content: right;*/
+}
+
+.landing-info {
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3rem;
+    padding: 0 10px;
+}
+
+.intro-text {
+    font-size: 6rem;
+    color: #ffffff;
+}
+
+.view-work-btn {
+    background-color: transparent;
+    border: white;
+}
