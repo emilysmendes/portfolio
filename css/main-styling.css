@@ -2,22 +2,23 @@
 }
 
 body {
-    background-color: #262222;
+    background-color: #2d2d2d;
     color: #ffffff;
     font-family: Sarabun, sans-serif;
     width: 100%;
 }
 
 .background-image {
-    max-height: 75vh;
-    /*justify-content: right;*/
+    height: 40rem;
+    width: 30rem;
 }
 
 .landing-info {
     align-items: center;
     justify-content: space-between;
-    margin-top: 3rem;
-    padding: 0 10px;
+    /*margin-top: 1rem;*/
+    padding: 0 25px;
+    height: 100vh;
 }
 
 .intro-text {
@@ -28,4 +29,10 @@ body {
 .view-work-btn {
     background-color: transparent;
     border: white;
+}
+
+.about-info, .work-info, .contact-info {
+    height: 100vh;
+
+
 }
