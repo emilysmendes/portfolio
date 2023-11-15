@@ -36,3 +36,11 @@ body {
 
 }
 
+a:link, a:hover, a:active, a {
+    color: white;
+}
+
+.nav-link, .nav-link:hover, .nav-link:active {
+    color: white;
+}
+
