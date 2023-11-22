@@ -6,11 +6,14 @@ body {
     color: #ffffff;
     font-family: Sarabun, sans-serif;
     width: 100%;
+    /*background-image: url("css/img/bg-3.png");*/
 }
 
 .background-image {
-    height: 40rem;
-    width: 30rem;
+    height: auto;
+    width: 100%;
+    /*z-index: -5;*/
+    /*position: relative;*/
 }
 
 .landing-info {
@@ -19,7 +22,14 @@ body {
     /*margin-top: 1rem;*/
     padding: 0 25px;
     height: 100vh;
-    background-image: url("css/img/bg-3.png");
+    background: url(img/bg-3.png);
+
+}
+
+.landing-container {
+    width: 100%;
+    height: 90vh;
+
 }
 
 .intro-text {
