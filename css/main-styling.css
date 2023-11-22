@@ -19,6 +19,7 @@ body {
     /*margin-top: 1rem;*/
     padding: 0 25px;
     height: 100vh;
+    background-image: url("css/img/bg-3.png");
 }
 
 .intro-text {
@@ -44,3 +45,4 @@ a:link, a:hover, a:active, a {
     color: white;
 }
 
+/*CAROUSEL FOR WORK*/
