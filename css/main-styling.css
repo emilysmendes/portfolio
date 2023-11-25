@@ -17,6 +17,15 @@ body {
     color: #ffffff;
     font-family: Sarabun, sans-serif;
     width: 100%;
+    padding: 0;
+    margin: 0;
+
+}
+
+.container {
+    padding: 0;
+    margin: 0;
+    width: 100%;
 
 }
 
@@ -31,9 +40,11 @@ body {
     align-items: center;
     justify-content: space-between;
     /*margin-top: 1rem;*/
-    padding: 0 25px;
+    /*padding: 0 25px;*/
     height: 100vh;
     /*background: url(img/bg-3.png);*/
+    margin: 0;
+    padding: 0;
 }
 
 .landing-container {
