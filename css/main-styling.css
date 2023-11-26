@@ -40,22 +40,24 @@ body {
     align-items: center;
     justify-content: space-between;
     /*margin-top: 1rem;*/
-    /*padding: 0 25px;*/
+    padding: 0 15rem;
     height: 100vh;
     /*background: url(img/bg-3.png);*/
-    margin: 0;
-    padding: 0;
+
 }
 
 .landing-container {
     position: relative;
     top: 0;
-    left: 0;
-    width: 100%;
-    height: 99vh;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 95vh;
     overflow: hidden;
     background-image: url("img/bg-3.png");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     object-fit: cover;
 }
 
@@ -83,3 +85,9 @@ a:link, a:hover, a:active, a {
     font-family: "Adelle Sans Devanagari", serif;
 }
 
+.abt-me-text {
+    padding: 10rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
